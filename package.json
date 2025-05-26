@@ -16,5 +16,8 @@
     "url": "https://github.com/AndreiVidal/giveaway-project/issues"
   },
   "homepage": "https://github.com/AndreiVidal/giveaway-project#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.15.21"
+  }
 }
