@@ -6,12 +6,12 @@ const termKit = term.terminal;
 export default async function announceWinner(winner: Person) {
   termKit.clear();
   const spinner = ora("Sorteando o vencedor...").start();
-  await new Promise((res) => setTimeout(res, 1500));
+  await new Promise((res) => setTimeout(res, 2000));
   spinner.stop();
 
   await termKit.slowTyping(`\n O sorteado(a) é: ${winner.toString()} \n`, {
     flashStyle: termKit.bgBrightWhite.red,
-    delay: 80,
+    delay: 90,
     style: termKit.brightBlue.bgBrightWhite,
   });
 
