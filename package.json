@@ -18,6 +18,12 @@
   "homepage": "https://github.com/AndreiVidal/giveaway-project#readme",
   "description": "",
   "devDependencies": {
-    "@types/node": "^22.15.21"
+    "@types/node": "^22.15.21",
+    "@types/ora": "^3.1.0",
+    "@types/terminal-kit": "^2.5.7"
+  },
+  "dependencies": {
+    "ora": "^8.2.0",
+    "terminal-kit": "^3.1.2"
   }
 }
